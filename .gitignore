@@ -1,0 +1,19 @@
+### Windows ###
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+### Visual Studio Code ###
+.vscode/
+*.code-workspace
+.history/
+
+### Navegadores e Logs ###
+*.log
+.DS_Store
+
+### Pasta de dependências (Caso você use pacotes no futuro) ###
+node_modules/
+dist/
+build/
