@@ -363,3 +363,14 @@ footer{
         margin: 100px 0;
     }
 }
+/* Centralizado com imagem */
+.center-content {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.logo-center {
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+}
