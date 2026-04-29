@@ -1,39 +1,197 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-theme="light">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Micros & Cia.</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Micros & Cia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    <div class="container">
 
-        
-        <div class="navbar-container">
-            <nav>
-                <a href="#">
-                    <img src="Images/logo.jpg" alt="" class="logo" />
-            </a>
-            <ul class="navbar-itens">
-                    <li><a href="#">QUEM SOMOS</a></li>
-                    <li><a href="#">CONTATO</a></li>
-                    <!-- <li><a href="pages/login.html" class="default-btn">Login</a></li> -->
-                </ul>
-            </nav>
-        <!-- <h1>Micros & Cia</h1> -->
-        <br><br>
-         <div class="center-content">
-        <h1>ESTAMOS EM MANUTENÇÃO</h1>
-        <br>
-        <img src="Images/logo.jpg" alt="" class="logo-center">
+<!-- ═══════════════════════════════════════ NAVBAR ══ -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-icon">
+        <img src="images/icon.png" alt="Micros & Cia Assistência Técnica" />
+      </div>
+      Micros & Cia <!-- <span class="accent">&nbsp;Electronics</span> -->
+    </a>
 
-        <h3>Rua Costa Aguiar, 2392 - Ipiranga - São Paulo SP</h3>
-        <h3>+55 (11) 99919-3429</h3>
-        <h3>micros.cia@gmail.com</h3>
-</div>
+    <div class="nav-tabs">
+      <a href="index.html"   class="nav-tab active">Home</a>
+      <a href="about.html"   class="nav-tab">Sobre Nós</a>
+      <a href="contact.html" class="nav-tab">Contato</a>
     </div>
-    
+
+    <div class="nav-controls">
+      <button class="theme-btn" onclick="toggleTheme()" aria-label="Toggle dark mode">
+        <span id="theme-icon">🌙</span>
+      </button>
+      <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html"   class="nav-tab active">Home</a>
+    <a href="about.html"   class="nav-tab">Sobre Nós</a>
+    <a href="contact.html" class="nav-tab">Contato</a>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════ HERO ══ -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <!-- <div class="hero-badge">Fast · Reliable · Affordable</div> -->
+        <!-- <h1>Your devices,<br/>fixed <span class="accent">right.</span></h1> -->
+        <h1>Mais de 30 anos de expêriencia!</span></h1>
+        <p>Entre em contato conosco.</p>
+        <!-- <div class="btn-row">
+          <a href="contact.html" class="btn btn-primary">
+            Get a Quote
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="about.html" class="btn btn-outline">About Us</a>
+        </div> -->
+      </div>
+
+      <div class="hero-image">
+        <div class="hero-img-box">
+          <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          <span class="hero-img-label">YOUR HERO IMAGE HERE</span>
+        </div>
+        <div class="stat-float stat-float-1">
+          <div>
+            <div class="num">500+</div>
+            <div style="font-size:0.74rem;color:var(--text-muted)">Repairs done</div>
+          </div>
+        </div>
+        <div class="stat-float stat-float-2">
+          <div>
+            <div class="num">98%</div>
+            <div style="font-size:0.74rem;color:var(--text-muted)">Satisfaction</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ SERVICES ══ -->
+<!-- <section class="section" style="padding-top:0">
+  <div class="container">
+    <p class="section-title">What We Fix</p>
+    <div class="divider"></div>
+    <p class="section-sub">From cracked screens to water damage — if it has a circuit board, we can help.</p>
+    <div class="cards-grid">
+
+      <div class="card">
+        <div class="card-icon">
+          <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><circle cx="12" cy="18" r="1"/></svg>
+        </div>
+        <h3>Smartphone Repair</h3>
+        <p>Screen replacements, battery swaps, charging ports, cameras, and software issues for all major brands.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">
+          <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        </div>
+        <h3>Laptop &amp; PC Repair</h3>
+        <p>Hardware upgrades, virus removal, keyboard and display fixes, thermal cleaning, and data recovery.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">
+          <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 8h20"/></svg>
+        </div>
+        <h3>Tablet Repair</h3>
+        <p>iPad and Android tablet screen repairs, battery replacements, button fixes, and charging solutions.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">
+          <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Water Damage</h3>
+        <p>Emergency ultrasonic cleaning and component-level restoration for liquid-damaged devices.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">
+          <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+        </div>
+        <h3>Data Recovery</h3>
+        <p>Professional retrieval of lost photos, files, and documents from damaged or corrupted storage devices.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">
+          <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93l-1.41 1.41M4.93 4.93l1.41 1.41M4.93 19.07l1.41-1.41M19.07 19.07l-1.41-1.41M20 12h2M2 12h2M12 20v2M12 2v2"/></svg>
+        </div>
+        <h3>Diagnostics</h3>
+        <p>Not sure what's wrong? Free diagnostic check on any device — no fix, no fee, no surprises.</p>
+      </div>
+
+    </div>
+  </div>
+</section> -->
+
+<!-- ═══════════════════════════════════════ GALLERY ══ -->
+<section class="section" style="background:var(--bg-card); border-top:1px solid var(--border); border-bottom:1px solid var(--border)">
+  <div class="container">
+    <p class="section-title">Conheça</p>
+    <div class="divider"></div>
+    <p class="section-sub">Veja alguns dos nossos trabalhos</p>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        <span>Foto 1</span>
+      </div>
+      <div class="gallery-item">
+        <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        <span>Foto 2</span>
+      </div>
+      <div class="gallery-item">
+        <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        <span>Foto 3</span>
+      </div>
+      <div class="gallery-item">
+        <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        <span>Foto 4</span>
+      </div>
+      <div class="gallery-item">
+        <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        <span>Foto 5</span>
+      </div>
+      <div class="gallery-item">
+        <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        <span>Foto 6</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ FOOTER ══ -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <p>© <span id="year"></span> Micros & Cia. Todos os direitos reservados.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">Sobre Nós</a>
+        <a href="contact.html">Contato</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>

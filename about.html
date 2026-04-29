@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre Nós – Micros & Cia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════ NAVBAR ══ -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-icon">
+        <img src="images/icon.png" alt="Micros & Cia Assistência Técnica" />
+      </div>
+      Micros & Cia <!-- <span class="accent">&nbsp;Electronics</span> -->
+    </a>
+
+    <div class="nav-tabs">
+      <a href="index.html"   class="nav-tab">Home</a>
+      <a href="about.html"   class="nav-tab active">Sobre Nós</a>
+      <a href="contact.html" class="nav-tab">Contato</a>
+    </div>
+
+    <div class="nav-controls">
+      <button class="theme-btn" onclick="toggleTheme()" aria-label="Toggle dark mode">
+        <span id="theme-icon">🌙</span>
+      </button>
+      <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html"   class="nav-tab">Home</a>
+    <a href="about.html"   class="nav-tab active">Sobre Nós</a>
+    <a href="contact.html" class="nav-tab">Contato</a>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════ ABOUT INTRO ══ -->
+<section class="section">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-box">
+        <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        <span>YOUR SHOP PHOTO HERE</span>
+      </div>
+      <div class="about-text">
+        <h2>Sobre <span class="accent">Micros & Cia</span></h2>
+        <div class="divider"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sed corporis tenetur aut? Quam minus aliquid maiores doloremque modi saepe laboriosam provident ab eligendi repellat voluptates, quia recusandae ipsum nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed omnis numquam nisi illo. Neque quibusdam at possimus soluta optio atque praesentium et maxime dolorum laborum vel minus, alias aliquam suscipit.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolore temporibus autem veritatis, sint adipisci quibusdam quos molestiae nostrum maiores itaque exercitationem tempora delectus inventore laboriosam incidunt aperiam odit ex! Commodi necessitatibus harum id, repudiandae inventore esse ipsa culpa saepe tenetur maxime neque cumque obcaecati maiores blanditiis adipisci perspiciatis distinctio sit quos excepturi magnam consequatur incidunt magni at laudantium. Eveniet delectus provident consequatur ducimus?</p>
+        <a href="contact.html" class="btn btn-primary">
+          CONTATO
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ VALUES ══ -->
+<!-- <section class="section" style="padding-top:0">
+  <div class="container">
+    <p class="section-title">Why Choose Us</p>
+    <div class="divider"></div>
+    <div class="values-grid">
+      <div class="value-item">
+        <div class="value-num">01</div>
+        <div>
+          <h4>Transparent Pricing</h4>
+          <p>We quote before we fix. No hidden fees, no surprises on your bill.</p>
+        </div>
+      </div>
+      <div class="value-item">
+        <div class="value-num">02</div>
+        <div>
+          <h4>Fast Turnaround</h4>
+          <p>Most repairs are completed same-day or within 24 hours.</p>
+        </div>
+      </div>
+      <div class="value-item">
+        <div class="value-num">03</div>
+        <div>
+          <h4>Quality Parts</h4>
+          <p>We use only certified or OEM-grade components for every repair.</p>
+        </div>
+      </div>
+      <div class="value-item">
+        <div class="value-num">04</div>
+        <div>
+          <h4>Warranty Included</h4>
+          <p>All repairs come with a [X]-month warranty on parts and labour.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- ═══════════════════════════════════════ TEAM ══ -->
+<!-- <section class="section" style="background:var(--bg-card); border-top:1px solid var(--border); border-bottom:1px solid var(--border)">
+  <div class="container">
+    <p class="section-title">Meet the Team</p>
+    <div class="divider"></div>
+    <p class="section-sub">The people behind your repairs.</p>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-avatar">
+          <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+        </div>
+        <h3>[Name]</h3>
+        <span>Founder &amp; Lead Technician</span>
+        <p>[Short description about this team member and their expertise.]</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">
+          <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+        </div>
+        <h3>[Name]</h3>
+        <span>Mobile Repair Specialist</span>
+        <p>[Short description about this team member and their expertise.]</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">
+          <svg fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+        </div>
+        <h3>[Name]</h3>
+        <span>Laptop &amp; PC Technician</span>
+        <p>[Short description about this team member and their expertise.]</p>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- ═══════════════════════════════════════ FOOTER ══ -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <p>© <span id="year"></span> Micros & Cia. Todos os direitos reservados.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">Sobre Nós</a>
+        <a href="contact.html">Contato</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
