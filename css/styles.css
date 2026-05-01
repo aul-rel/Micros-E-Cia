@@ -1,5 +1,6 @@
 /* ── TOKENS ──────────────────────────────────────────── */
 :root {
+  /* --accent:       #3498db; */
   --accent:       #3498db;
   --accent-dark:  #2176ae;
   --accent-glow:  rgba(52, 152, 219, 0.18);
@@ -74,7 +75,8 @@ a { color: inherit; text-decoration: none; }
 .logo-icon {
   width: 34px;
   height: 34px;
-  background: var(--accent);
+  /* background: var(--accent); */
+  /* background: #ecf0f1;  NÃO SEI O QUE FIZ AQUI MAS FUNCIONOU MUITO BEM! */
   border-radius: 8px;
   display: flex;
   align-items: center;
