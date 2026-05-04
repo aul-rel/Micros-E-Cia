@@ -4,7 +4,7 @@ Website para empresa de assistência técnica de eletrônicos, computadores e im
 
 Website em construção
 <br>Protótipo Versão NUM SEI
-<br>Em fase de merge
+
 
 <br>Auréllio Jefferson Falkoski - 3024105306
 <br>Gabriella Cristina Ramalho Sobrinho - 3026105485
@@ -14,5 +14,3 @@ Website em construção
 <br>Luccas Felipe Ferreira Silva - 3024100463
 <br>Matheus Guedes - 3024102266
 <br>Rodrigo Kelis - 3026105862
-
-https://www.microsecia.com.br
