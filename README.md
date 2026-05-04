@@ -3,7 +3,8 @@
 Website para empresa de assistência técnica de eletrônicos, computadores e impressoras, com mais de 30 anos de experiência.
 
 Website em construção
-Versão número QUASE 1.0
+<br>Protótipo Versão NUM SEI
+<br>Em fase de merge
 
 <br>Auréllio Jefferson Falkoski - 3024105306
 <br>Gabriella Cristina Ramalho Sobrinho - 3026105485
