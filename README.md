@@ -3,7 +3,7 @@
 Website para empresa de assistência técnica de eletrônicos, computadores e impressoras, com mais de 30 anos de experiência.
 
 Website em construção
-<br>Protótipo Versão 0.2
+<br>Protótipo Versão 0.22 ou alguma coisa próxima disso
 
 <br>Auréllio Jefferson Falkoski - 3024105306
 <br>Gabriella Cristina Ramalho Sobrinho - 3026105485
