@@ -1,9 +1,9 @@
-/* main.js — shared across all pages */
+/* main.js — compartilhado em todas as páginas */
 
-// ── Footer year ──────────────────────────────────────
+// ── Ano do rodapé ──────────────────────────────────────
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// ── Dark mode ────────────────────────────────────────
+// ── Modo escuro ────────────────────────────────────────
 const THEME_KEY = 'fixit-theme';
 
 function applyTheme(theme) {
@@ -18,7 +18,7 @@ function toggleTheme() {
   applyTheme(next);
 }
 
-// On load: saved preference → system preference → light
+// Ao carregar: preferência salva → preferência do sistema → claro
 (function () {
   const saved = localStorage.getItem(THEME_KEY);
   if (saved) {
@@ -28,7 +28,7 @@ function toggleTheme() {
   }
 })();
 
-// ── Mobile menu ───────────────────────────────────────
+// ── Menu mobile ───────────────────────────────────────
 function toggleMenu() {
   document.getElementById('mobileMenu').classList.toggle('open');
 }
