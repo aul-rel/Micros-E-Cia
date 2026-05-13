@@ -8,7 +8,7 @@ const THEME_KEY = 'fixit-theme';
 
 function applyTheme(theme) {
   document.documentElement.setAttribute('data-theme', theme);
-  document.getElementById('theme-icon').textContent = theme === 'dark' ? '☀️' : '🌙';
+  document.getElementById('theme-icon').src = theme === 'dark' ? 'Images/sun-solid.svg' : 'Images/moon-solid.svg';
 }
 
 function toggleTheme() {
