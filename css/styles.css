@@ -123,6 +123,11 @@ a { color: inherit; text-decoration: none; }
 }
 .theme-btn:hover { border-color: var(--accent); color: var(--accent); }
 
+#theme-icon {
+  width: 20px;
+  height: 20px;
+}
+
 /* hamburger */
 .hamburger {
   display: none;
