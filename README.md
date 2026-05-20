@@ -1,5 +1,50 @@
 # Micros & Cia
 
+                                                              ;;:::                                 
+                                                           ;:::::::                                 
+                                                            ;::::::     ::::::::.:                  
+                                                           ;::::::::    ::.:::::::     Xxxxxxxx+++++
+  ++xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxXXXXXXXXXXXX$  ;;;::::; :     ::::::::::      xxxxxx+++++x
+++++++++++++++++++++++++++++++++xxxxxxxxxxxxxxxxxxXXXX  ;;;;:::;       ::::::::::.       xxxxx++++++
+++++++++++++++++++++++++++++++++xxxxxxxxxxxxxxxxxxXX$  ;;;;;::;       :.::::::::::;    Xxxxxxx++++++
+++++++++++++++++++++++++++xxxxxxxxxxxxxxxxxxxxxxxXX  +;;;;;;;       ::::::::.::  ;    Xxxxxxxx+++++x
+++++++                                       XxxX  ++;;;;;;;      ;:.:::::.::       Xxxxxxxxxxxx+++ 
+++++++                                      XxX  ++++;;;;+      ;:..:::::.:       XXxxxxxxxxxx   x+ 
+++++++                                     X  x++++++;;;+     ::.:::::::::       XXxxxxxxxxxx       
+++++++                                      x+++++++++      ;:..::::::::       XXxxxxxxxxxX         
+++++++                                  xxxxx+++++++     :::.:::::::::       XXXXxxxxxxxX           
+++++++                             XXXxxxxxxx++++      :::::::::::::       XXXXXXxxxxxX             
+++++++          $$     $$$$$$$$XXXXXXXxxxxxxx      :::..:.:::::::       XXXXXXXXXxxX$               
+++++++         &&Xxx   $$$$$$$$XXXXXXXXX       ::::..:::::.:::       XXXXXXXXXXXXXX                 
+++++++          &&x++;;+                  ::::.::::.:::::::       $XXXXXXXXXXXXX                    
+++++++           &&&+;;;::::::::;::::::...::::::...:::;        $XXXXXXXXXXXXX                       
+++++++           &&&&& ;:::::::::::::::::::..:::::         $$$XXXXXXXXXXXXX                         
+++++++             &&&&&&       +;;;;;+                $$$XXXXXXXXXXXXX                             
+++++++               &&&&$$$&$&&&            &$$$$$$$$$$$$$XXXXXXXXX  $$&&                          
+++++++                 &&&$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$XXX$$$  $$$$$&&                          
+++++++                     &&$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$   $$$$$$$$$$&&                          
+++++++                           &$$$$$$$$$$$$$$$$$$$                   &&                          
+++++++                                                                  &&                          
+++++++                                                                  &&                          
+++++++                                                                  &&                          
+++++++                                                                  &&                          
+++++++                                                                  &&                          
+++++++                                                                  &&                          
+++++++++++++++++++++++++++++++++xxxxxxxxxxxxxxxxxxXXXXXXXXXXXX$$$$$$$$$$&&                          
+++++++++++++++++++++++++++++++++xxxxxxxxxxxxxxxxxxXXXXXXXXXXXX$$$$$$$$$$&&                          
+ x++++++++++++++++++++++++++++++xxxxxxxxxxxxxxxxxxXXXXXXXXXXXX$$$$$$$$$$&&&                         
+                                xxxxxxxxxxxxxx                                                      
+                                xxxxxxxxxxxxxx                                                      
+                                xxxxxxxxxxxxxx                                                      
+                    x+++++++++++xxxxxxxxxxxxxxxxxxXXXXXXXX                                          
+  ;:::      ;::   ::++++++++++++xxxxxxxxxxxxxxxxxxXXXXXXXX              ::::;:::  ::                
+    :::    ::.:   :; xxxxxxxxxxxxxxxxxxxxXXXXXXXXXXXXXXXX::::          :::    ::  ::                
+    ::.:  :::::  ;:+    :::: ;:: ::   ::::   ;:::        :;::         ;:;         :;    ::::        
+    : ::; ::;::  ::   ::  ::  :::;; ::: ::; ::  ::       :::::::;     :::        ;::  ::; :::       
+   ;: ;:::: :::  ::  ;:;      ::;   ::   :: ;::::      :::::: :       :::        :::   ;::::;       
+   ::  :::  .::  ::  ;.:     ;::    ::  ;:; ;  :::     .:: :::;        :::    ;; :.:  :: ;:.        
+  ;::  ::   ;::: :::: ;::::; :::    ::::::  :::::       :::::;:::;      :::::::  ;:::;::::;::;      
+
 ## REPOSITÓRIO DE DESENVOLVIMENTO
 
 Website para empresa de assistência técnica de eletrônicos, computadores e impressoras, com mais de 30 anos de experiência.
