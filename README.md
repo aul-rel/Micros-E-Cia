@@ -28,11 +28,15 @@
 
 ````
 
-Website para empresa de assistência técnica de eletrônicos, computadores e impressoras, com mais de 35 anos de experiência.
+Website para empresa de assistência técnica de computadores, notebooks e impressoras, com mais de 35 anos de experiência.  
 
-Website em construção  
-Protótipo Versão 0.90
+Versão 1.00  
 
+-> Branch MASTER  
+-  Branch dev  
+-  Branch maintenance  
+
+DESENVOLVEDORES:  
 Auréllio Jefferson Falkoski - 3024105306  
 Gabriella Cristina Ramalho Sobrinho - 3026105485  
 Italo Oshiro Nakamato - 3024104366  
