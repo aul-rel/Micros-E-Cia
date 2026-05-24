@@ -33,8 +33,8 @@ Website para empresa de assistência técnica de computadores, notebooks e impre
 Versão 1.00  
 
 -> Branch MASTER  
--  Branch dev  
--  Branch maintenance  
+-Branch dev  
+-Branch maintenance  
 
 DESENVOLVEDORES:  
 Auréllio Jefferson Falkoski - 3024105306  
