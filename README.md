@@ -28,7 +28,7 @@
 
 ````
 
-Website para empresa de assistência técnica de computadores, notebooks e impressoras, com mais de 35 anos de experiência.  
+Website para empresa de assistência técnica de computadores, notebooks e impressoras, com mais de 30 anos de experiência.  
 
 Versão 1.00  
 
