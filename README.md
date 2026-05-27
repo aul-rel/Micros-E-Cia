@@ -1,4 +1,4 @@
-# Micros & Cia
+# Projeto Micros & Cia
 
 ````text
 
@@ -32,11 +32,11 @@ Website para empresa de assistência técnica de computadores, notebooks e impre
 
 Versão 1.00  
 
--> Branch MASTER  
--Branch dev  
--Branch maintenance  
+-> Branch MASTER - BRANCH ONDE O SITE ESTÁ HOSPEDADO  
+-  Branch dev - BRANCH ONDE O SITE FOI DESENVOLVIDO E PARA TESTES DE FUTUROS INCREMENTOS  
+-  Branch maintenance - BRANCH CONTENDO A PÁGINA DE MANUTENÇÃO, PARA CASOS ONDE O SITE PRECISA SER TIRADO DO AR  
 
-DESENVOLVEDORES:  
+DESENVOLVEDORES DO PROJETO:  
 Auréllio Jefferson Falkoski - RA 3024105306  
 Gabriella Cristina Ramalho Sobrinho - RA 3026105485  
 Italo Oshiro Nakamato - RA 3024104366  
