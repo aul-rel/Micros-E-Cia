@@ -29,6 +29,7 @@
 ````
 
 Website para empresa de assistência técnica de computadores, notebooks e impressoras, com mais de 30 anos de experiência.  
+Hospedado pelo GitHub Pages. Domínio personalizado registrado pela empresa usando o Registro.br.  
 
 Versão 1.00  
 
