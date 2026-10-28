@@ -1,0 +1,16 @@
+# Configuração do Jekyll — site Micros & Cia
+# O GitHub Pages compila este projeto sozinho (não precisa de GitHub Actions).
+
+title: Micros & Cia
+lang: pt-BR
+
+# Arquivos que NÃO devem ir para o site publicado
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - "Banner - Projeto Micros & Cia.pptx"
+  - Images/originals
+  - Images/Unused
+  - vendor
+  - node_modules

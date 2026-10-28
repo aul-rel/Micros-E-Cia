@@ -1,0 +1,164 @@
+# Configuração do Pages CMS (https://pagescms.org) — painel de edição do site Micros & Cia
+# Cada item de "content" vira um formulário no painel. Os valores são gravados
+# nos arquivos da pasta _data, e o Jekyll monta as páginas a partir deles.
+
+# Fotos enviadas pelo painel vão para a pasta Images do repositório
+media:
+  input: Images
+  output: /Images
+
+content:
+  # ───────────────────────── PÁGINA INICIAL ─────────────────────────
+  - name: home
+    label: Página inicial
+    type: file
+    path: _data/home.yml
+    format: yaml
+    fields:
+      - name: hero
+        label: Destaque do topo
+        type: object
+        fields:
+          - name: title
+            label: Título grande
+            type: string
+          - name: subtitle
+            label: Frase abaixo do título
+            type: string
+          - name: image
+            label: Foto principal
+            type: image
+            options:
+              rename: safe
+          - name: image_alt
+            label: Descrição da foto (para acessibilidade)
+            type: string
+          - name: image_label
+            label: Texto sobre a foto
+            type: string
+      - name: gallery
+        label: Galeria "Aparelhos que consertamos"
+        type: object
+        fields:
+          - name: title
+            label: Título da seção
+            type: string
+          - name: subtitle
+            label: Subtítulo da seção
+            type: string
+          - name: items
+            label: Fotos da galeria
+            type: object
+            list: true
+            fields:
+              - name: image
+                label: Foto
+                type: image
+                options:
+                  rename: safe
+              - name: alt
+                label: Descrição da foto (para acessibilidade)
+                type: string
+              - name: label
+                label: Legenda
+                type: string
+
+  # ───────────────────────── SOBRE NÓS ─────────────────────────
+  - name: about
+    label: Sobre Nós
+    type: file
+    path: _data/about.yml
+    format: yaml
+    fields:
+      - name: heading_start
+        label: Título (parte normal)
+        type: string
+      - name: heading_accent
+        label: Título (parte em destaque azul)
+        type: string
+      - name: image
+        label: Foto
+        type: image
+        options:
+          rename: safe
+      - name: image_alt
+        label: Descrição da foto (para acessibilidade)
+        type: string
+      - name: intro
+        label: Texto de apresentação
+        type: rich-text
+      - name: services_title
+        label: Título da lista de serviços
+        type: string
+      - name: services
+        label: Serviços
+        type: string
+        list: true
+      - name: location_text
+        label: Texto sobre o local
+        type: text
+      - name: why_title
+        label: Título "Por que escolher"
+        type: string
+      - name: why
+        label: Motivos para escolher a empresa
+        type: string
+        list: true
+
+  # ───────────────────────── CONTATO ─────────────────────────
+  - name: contact
+    label: Contato
+    type: file
+    path: _data/contact.yml
+    format: yaml
+    fields:
+      - name: title_start
+        label: Título (parte normal)
+        type: string
+      - name: title_accent
+        label: Título (parte em destaque azul)
+        type: string
+      - name: address_line
+        label: Endereço (rua e bairro)
+        type: string
+      - name: address_city
+        label: Cidade, estado e CEP
+        type: string
+      - name: phone
+        label: Telefone
+        type: string
+      - name: whatsapp
+        label: WhatsApp
+        type: string
+      - name: email
+        label: E-mail
+        type: string
+      - name: hours
+        label: Horários de atendimento (uma linha por item)
+        type: string
+        list: true
+      - name: map_url
+        label: Link do mapa (Google Maps > Compartilhar > Incorporar um mapa)
+        type: text
+
+  # ───────────────────────── GERAL ─────────────────────────
+  - name: site
+    label: Geral (nome e rodapé)
+    type: file
+    path: _data/site.yml
+    format: yaml
+    fields:
+      - name: name
+        label: Nome da empresa
+        type: string
+      - name: logo
+        label: Logotipo
+        type: image
+        options:
+          rename: safe
+      - name: logo_alt
+        label: Descrição do logotipo (para acessibilidade)
+        type: string
+      - name: footer_text
+        label: Texto do rodapé
+        type: string

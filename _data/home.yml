@@ -1,0 +1,23 @@
+hero:
+  title: Mais de 30 anos de experiência!
+  subtitle: Entre em contato conosco.
+  image: Images/imagem inicial.jpg
+  image_alt: Entrada da Empresa
+  image_label: CONHEÇA NOSSA ASSISTÊNCIA TÉCNICA
+
+gallery:
+  title: Conheça
+  subtitle: Aparelhos que consertamos
+  items:
+    - image: Images/PCs.jpg
+      alt: Imagem de vários computadores
+      label: COMPUTADORES
+    - image: Images/Monitors.jpg
+      alt: Imagem com vários monitores
+      label: MONITORES
+    - image: Images/Notebooks.jpg
+      alt: Imagem de um notebook
+      label: NOTEBOOKS
+    - image: Images/Printers.jpg
+      alt: Imagem de uma impressora
+      label: IMPRESSORAS

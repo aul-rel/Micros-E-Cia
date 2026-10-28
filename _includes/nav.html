@@ -1,0 +1,32 @@
+<!-- ═══════════════════════════════════════ BARRA DE NAVEGAÇÃO ══ -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-icon">
+        <img src="{{ site.data.site.logo | replace_first: '/Images/', 'Images/' }}" alt="{{ site.data.site.logo_alt }}" />
+      </div>
+      {{ site.data.site.name }}
+    </a>
+
+    <div class="nav-tabs">
+      {% for item in site.data.navigation %}
+      <a href="{{ item.url }}" class="nav-tab{% if page.nav_id == item.id %} active{% endif %}">{{ item.label }}</a>
+      {% endfor %}
+    </div>
+
+    <div class="nav-controls">
+      <button class="theme-btn" onclick="toggleTheme()" aria-label="Toggle dark mode">
+        <img id="theme-icon" src="Images/moon-solid.svg" alt="Toggle theme" />
+      </button>
+      <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    {% for item in site.data.navigation %}
+    <a href="{{ item.url }}" class="nav-tab{% if page.nav_id == item.id %} active{% endif %}">{{ item.label }}</a>
+    {% endfor %}
+  </div>
+</nav>

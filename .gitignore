@@ -17,3 +17,9 @@ $RECYCLE.BIN/
 node_modules/
 dist/
 build/
+### Jekyll ###
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/

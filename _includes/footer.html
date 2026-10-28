@@ -1,0 +1,13 @@
+<!-- ═══════════════════════════════════════ RODAPÉ ══ -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <p>© <span id="year"></span> {{ site.data.site.name }}. {{ site.data.site.footer_text }}</p>
+      <div class="footer-links">
+        {% for item in site.data.navigation %}
+        <a href="{{ item.url }}">{{ item.label }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</footer>

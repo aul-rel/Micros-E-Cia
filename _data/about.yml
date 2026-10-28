@@ -1,0 +1,26 @@
+heading_start: Conheça a
+heading_accent: Micros & Cia
+
+image: Images/sobre nos.jpg
+image_alt: Nossas Instalações
+
+intro: |
+  A **Micros & Cia — Assistência Técnica Especializada** atua há mais de 30 anos no ramo de informática, oferecendo soluções confiáveis para clientes residenciais e empresas.
+
+  Trabalhamos com manutenção de computadores e notebooks, formatação, troca de SSD e memória, remoção de vírus, instalação de programas e assistência em impressoras. Nosso compromisso é oferecer atendimento de qualidade, agilidade e confiança, sempre buscando a melhor solução para cada cliente.
+
+services_title: "CONHEÇA OS PRINCIPAIS SERVIÇOS:"
+services:
+  - Reparos e recuperação de notebooks
+  - Reparos e recuperação de Computadores
+  - Reparos em impressoras
+  - Serviços de impressões/Xerox/digitalização
+
+location_text: Estamos no Ipiranga, atendendo com experiência, transparência e dedicação para manter seus equipamentos funcionando com segurança.
+
+why_title: "POR QUE ESCOLHER A GENTE?"
+why:
+  - Orçamento sem compromisso
+  - Atendimento o mais rápido possível
+  - Preço justo
+  - Garantia nos serviços

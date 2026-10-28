@@ -1,0 +1,11 @@
+# Itens do menu (aparecem no topo e no menu do celular).
+# "id" liga o item à página (campo nav_id no topo de cada página).
+- id: home
+  label: Home
+  url: index.html
+- id: about
+  label: Sobre Nós
+  url: about.html
+- id: contact
+  label: Contato
+  url: contact.html
